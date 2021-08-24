@@ -18,6 +18,10 @@
   * @프로그램 설명 	: JQuery.getScript 메소드의 동기, 비동기 다중 처리용 확장 메소드 추가
   */
 (function($) {
+	inject_code();
+}(jQuery));
+
+function inject_code() {
 	"use strict"; // ECMAScript5의 엄격 모드 기능 활성화
 
 	/*
@@ -160,4 +164,4 @@
 			_sync();
 		}
 	};
-}(jQuery));
+}
