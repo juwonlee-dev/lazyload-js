@@ -1,3 +1,14 @@
+/*
+ * jQuery JavaScript LazyLoad Library v1.0.0
+ * https://github.com/juwonlee-dev/lazyload-js
+ *
+ * Copyright (c) 2021 JuwonLee
+ * Single licensed under the GPL 2.0 licenses.
+ * https://github.com/juwonlee-dev/lazyload-js/License
+ *
+ * Date: Tue Aug 24 2021 20:30:00 GMT+0900 (한국 표준시)
+ */
+
 /**
   * @FileName  	: lazyload-lib.js
   * @Project   	: lazyload-js
@@ -15,7 +26,6 @@
 	 */
 	if ($.getScripts) { return; }
 
-	
 	/*
 	 * JQuery 객체에 getScripts 메소드 코드 인젝션
 	 */
